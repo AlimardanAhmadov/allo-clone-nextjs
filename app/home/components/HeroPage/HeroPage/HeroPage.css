@@ -1,0 +1,197 @@
+.landing-section {
+    /* padding: 20px;
+    height: 37em;
+    position: relative;
+    padding-top: 204px;
+    max-width: 1440px; */
+
+    padding: 20px;
+    height: 37em;
+    position: relative;
+    /* padding-top: 180px; */
+    max-width: 1440px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.landing-container {
+    /* max-width: 1200px;
+    position: sticky;
+    top: 38%;
+    bottom: auto;
+    height: auto; */
+    max-width: 1200px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 37%;
+    bottom: auto;
+    height: auto;
+}
+
+.landing-title h1 {
+    font-family: "Recoleta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 62px;
+    color: #333332;
+}
+
+.landing-subtitle {
+    margin-top: 36px
+}
+
+.landing-subtitle h4 {
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.animation-container {
+    height: 0;
+    max-width: 1200px;
+    position: relative;
+}
+
+.moving-taco {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: -175px;
+    bottom: 100%;
+    left: 29%;
+    right: auto;
+}
+
+.moving-beer {
+    width: 180px;
+    height: auto;
+    position: absolute;
+    top: auto;
+    bottom: 97px;
+    left: 140px;
+    right: auto;
+}
+
+.moving-taco {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: -175px;
+    bottom: 100%;
+    left: 29%;
+    right: auto;
+}
+
+.moving-pasta {
+    width: 250px;
+    position: absolute;
+    top: auto;
+    bottom: 10.5px;
+    left: 647px;
+}
+
+.moving-cheers {
+    width: 200px;
+    position: absolute;
+    top: auto;
+    bottom: -34px;
+    left: auto;
+    right: -2%;
+}
+
+.moving-bubble-tea {
+    z-index: auto;
+    width: 180px;
+    position: absolute;
+    top: 274px;
+    bottom: auto;
+    left: 321px;
+}
+
+.moving-burger {
+    z-index: auto;
+    width: 110px;
+    position: absolute;
+    top: 297px;
+    bottom: auto;
+    left: auto;
+    right: 394px;
+}
+
+.moving-sushi {
+    z-index: 5;
+    width: auto;
+    height: auto;
+    display: block;
+    position: fixed;
+    top: 21%;
+    bottom: auto;
+    left: 5.4vw;
+    right: auto;
+    overflow: visible;
+}
+
+.moving-dumpling {
+    z-index: 3;
+    width: 350px;
+    display: block;
+    position: fixed;
+    top: 50%;
+    bottom: auto;
+    left: auto;
+    right: 5%;
+}
+
+#sushi-container svg:nth-child(2) {
+    display: none;
+}
+
+#bubble-tea-container svg:nth-child(2) {
+    display: none;
+}
+
+#burger-container svg:nth-child(2) {
+    display: none;
+}
+
+#taco-container svg:nth-child(2) {
+    display: none;
+}
+
+#dumpling-container svg:nth-child(2) {
+    display: none;
+}
+
+#salad-container svg:nth-child(1) {
+    display: none;
+}
+
+#cheers-container svg:nth-child(1) {
+    display: none;
+}
+
+#beer-container svg:nth-child(1) {
+    display: none;
+}
+
+#pasta-container svg:nth-child(1) {
+    display: none;
+}
+
+.hero-divider {
+    height: 52vh;
+}
+
+.dashboard-tablet-view {
+    max-width: 1000px;
+    z-index: 2;
+}
+
+.cta-block {
+    height: 175vh;
+}

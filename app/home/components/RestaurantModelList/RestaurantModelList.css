@@ -1,0 +1,25 @@
+.model-cards-list {
+    margin-top: 24px;
+}
+
+.list-grid {
+    grid-column-gap: 70px;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    padding-top: 64px;
+    grid-row-gap: 16px;
+}
+
+.list-grid.mobile {
+    display: none;
+}
+
+.model-title {
+    flex: 0 auto;
+    margin-left: 8px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+}

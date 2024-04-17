@@ -1,0 +1,17 @@
+.mask-content {
+    z-index: 2;
+    margin-top: -280px;
+    margin-bottom: auto;
+    padding-top: 0;
+    top: 360px;
+}
+
+.mask-content h1 {
+    max-width: 500px;
+    letter-spacing: normal;
+    margin-top: auto;
+    margin-bottom: 38px;
+    font-family: Recoleta, sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+}

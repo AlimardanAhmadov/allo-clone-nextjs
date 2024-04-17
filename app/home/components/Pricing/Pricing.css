@@ -1,0 +1,122 @@
+.pricing {
+    margin-bottom: 160px;
+}
+
+.pricing-block:before {
+    content: " ";
+    grid-area: 1 / 1 / 2 / 2;
+    display: table;
+}
+
+.pricing-title {
+    max-width: 1200px;
+}
+
+.pricing-title > h1 {
+    color: #333332;
+    font-family: Recoleta, sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 44px;
+    margin-left: 0px;
+}
+
+.pricing-title > h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333332;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+}
+
+.pricing-block {
+    max-width: 1200px;
+    margin-top: 44px;
+}
+
+.standard {
+    height: 400px;
+    background-color: #6092c7;
+    border-radius: 12px;
+    margin-right: 24px;
+    padding: 24px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.04), 0 2px 6px rgba(0,0,0,.04), 0 0 1px rgba(0,0,0,.04);
+}
+
+.pricing-type {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    margin-top: 0;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    margin-left: 0;
+    color: #fff;
+}
+
+.price {
+    margin-bottom: 130px;
+    font-family: Recoleta, sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 62px;
+}
+
+.price-duration {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.pricing-info__standard .pricing-tags {
+    margin-bottom: 16px;
+}
+
+.tag {
+    height: 24px;
+    background-color: rgba(249, 249, 249, .08);
+    border-radius: 100px;
+}
+
+.tag.pricing-tags {
+    max-width: 180px;
+    margin-bottom: 8px;
+}
+
+.tag-content {
+    margin: 2px 8px;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.pricing-desc {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 340px;
+    font-weight: 300;
+}
+
+.pricing-standard__animation {
+    width: 280px;
+}
+
+.pricing-item:nth-of-type(1) {
+    width: 58.3333%;
+}
+
+.pricing-item:nth-of-type(2) {
+    width: 41.6667%;
+}
+
+.premium {
+    height: 400px;
+    background-color: #193047;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.04), 0 2px 6px rgba(0,0,0,.04), 0 0 1px rgba(0,0,0,.04);
+}

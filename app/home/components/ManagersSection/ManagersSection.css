@@ -1,0 +1,118 @@
+.managers-design.mobile {
+    display: none;
+}
+
+.design-content-column {
+    max-width: 410px;
+    margin-top: 10vh;
+}
+
+.design-content-column > h3 {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 0;
+}
+
+.design-content-column > h4 {
+    margin-top: 2vh;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.design-content-column > ul {
+    margin-top: 7vh;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.design-content-column > ul > li {
+    margin-bottom: 12px;
+}
+
+.design-content-column > ul > li > a > h2 {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(249,249,249,.4);
+}
+
+.small-bowl {
+    margin-right: 10px;
+}
+
+.reference__card-1 {
+    max-height: 200px;
+    max-width: 400px;
+    background-color: rgba(249, 249, 249, .08);
+    border-radius: 12px;
+    margin-bottom: 10vh;
+    padding: 24px;
+}
+
+.reference__card-info {
+    margin: 0 0 24px;
+}
+
+.customer-info {
+    margin-left: 12px;
+}
+
+.customer-info > h4.semifold:nth-of-type(1) {
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+    line-height: 22px;
+}
+
+.customer-info > h4.semifold:nth-of-type(2) {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.reference-quote {
+    max-width: 350px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+/* .slide-images-grid {
+    grid-auto-columns: 1fr;
+    display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 240px;
+    flex: 1;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
+    align-content: space-between;
+    margin-bottom: 10vh;
+    padding-top: 10vh;
+} */
+
+.grid-right-images {
+    left: 290px;
+    max-height: 100vh;
+    height: 100vh;
+
+    grid-auto-columns: 1fr;
+    display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 240px;
+    flex: 1;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
+    align-content: space-between;
+    margin-bottom: 10vh;
+    padding-top: 10vh;
+}
+
+.background-overlay {
+    z-index: -2;
+}

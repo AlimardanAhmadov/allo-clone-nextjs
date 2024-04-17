@@ -1,0 +1,11 @@
+.moving-salad {
+    z-index: 0;
+    width: 350px;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: auto;
+    bottom: -500px;
+    left: -3%;
+    right: auto;
+}

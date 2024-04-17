@@ -1,0 +1,41 @@
+.devices {
+    top: -422px;
+}
+
+.devices-text-block {
+    overflow-x: hidden !important;
+    z-index: -3;
+}
+
+.devices-text-block > h2 {
+    color: #333332;
+    font-family: Recoleta, sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+.devices-text-block > h4 { 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    max-width: 390px;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+}
+
+.device-icons {
+    margin-top: 32px;
+}
+
+.device-icons > img {
+    margin-left: 7px;
+    margin-right: 7px;
+    padding-left: 0;
+}
+
+.landing-tablet-1 {
+    top: 1600px;
+    left: -388px;
+}

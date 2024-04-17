@@ -1,0 +1,14 @@
+.cta-figure-2 {
+    z-index: 1;
+    top: 200px;
+    left: -782px;
+    backface-visibility: visible;
+    perspective-origin: 50%;
+    transform-origin: 50% 100%;
+}
+
+@media screen and (min-width: 1440px) {
+    .cta-figure-2 {
+        top: -200px;
+    }
+}
